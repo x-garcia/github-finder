@@ -28,7 +28,7 @@ const App = () => {
                   path="/user/:username"
                   render={(props) => <User {...props} />}
                 />
-                <Route>
+                <Route path="/*">
                   <NotFound />
                 </Route>
               </Switch>
